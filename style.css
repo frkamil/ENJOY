@@ -1,0 +1,61 @@
+html {
+  background-image: repeating-conic-gradient(
+    red 0deg 10deg,
+    yellow 10deg 20deg,
+    blue 20deg 30deg
+  );
+}
+
+body {
+  width: 600px;
+  border-start-end-radius: 50px 0;
+  margin: 25px auto;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  border-style: outset;
+  border-color: white red blue yellow;
+  border-width: 25px;
+  color: rgb(82, 75, 173);
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: rgb(118, 0, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(108, 108, 213),
+    0 0 25px rgb(124, 124, 159);
+}
+
+h1,
+h2 {
+  font-family: Papyrus, fantasy;
+  color: rgb(118, 0, 0);
+  font-size: 255%;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+}
+
+button {
+  background-color: rgb(194, 157, 111);
+  color: rgb(250, 190, 112);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 88, 58);
+  transform: rotateY(150deg);
+}
